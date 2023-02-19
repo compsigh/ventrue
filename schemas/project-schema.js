@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-const Schema = mongoose.Schema;
+const { Schema, model, SchemaTypes } = mongoose;
 
 const projectSchema = new Schema({
     id: {
@@ -15,10 +15,11 @@ const projectSchema = new Schema({
         type: String,
         required: true
     },
-    memberIds: {
-        type: [String],
+    members: [{
+        type: SchemaTypes.ObjectId,
+        ref: 'Student',
         required: true
-    },
+    }],
     links: [{
         link: String,
         description: String
@@ -38,12 +39,21 @@ const projectSchema = new Schema({
         type: {
             goal: Number,
             current: Number,
-            supporterIds: [String]
+            supporters: [{
+                type: SchemaTypes.ObjectId,
+                ref: 'Supporter',
+                required: true
+            }]
         },
         required: true
     }
 }, { collection: 'projects' });
 
-const Project = mongoose.model('project', projectSchema);
+projectSchema.pre('save', function (next) {
+    this.lastModified = Date.now();
+    next();
+});
+
+const Project = model('project', projectSchema);
 
 export default Project;
