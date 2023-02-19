@@ -2,22 +2,45 @@ import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 const projectSchema = new Schema({
-    id: String,
-    name: String,
-    description: String,
-    memberIds: [String],
+    id: {
+        type: String,
+        required: true,
+        immutable: true
+    },
+    name: {
+        type: String,
+        required: true
+    },
+    description: {
+        type: String,
+        required: true
+    },
+    memberIds: {
+        type: [String],
+        required: true
+    },
     links: [{
         link: String,
         description: String
     }],
     tags: [String],
     image: String,
-    lastModified: Date,
-    created: Date,
+    lastModified: {
+        type: Date,
+        default: () => Date.now()
+    },
+    created: {
+        type: Date,
+        default: () => Date.now(),
+        immutable: true
+    },
     funding: {
-        goal: Number,
-        current: Number,
-        supporterIds: [String]
+        type: {
+            goal: Number,
+            current: Number,
+            supporterIds: [String]
+        },
+        required: true
     }
 }, { collection: 'projects' });
 
