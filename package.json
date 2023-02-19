@@ -1,14 +1,14 @@
 {
   "name": "ventrue",
-  "author": "Napoleon Labs",
-  "bugs": "https://github.com/edwardshturman/mission/issues",
-  "homepage": "https://github.com/edwardshturman/mission",
+  "author": "compsigh SCU Hackathon team — Edward, Calvin, Steph, Allen, and Chris",
+  "bugs": "https://github.com/compsigh/ventrue/issues",
+  "homepage": "https://github.com/compsigh/ventrue",
   "version": "0.1.0",
   "license": "UNLICENSED",
-  "description": "School policy changelog and collaboration platform for students, staff, and admin",
+  "description": "A pitching platform for supporting student projects",
   "repository": {
     "type": "git",
-    "url": "https://github.com/edwardshturman/mission.git"
+    "url": "https://github.com/compsigh/ventrue.git"
   },
   "private": true,
   "scripts": {
