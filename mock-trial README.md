@@ -9,6 +9,9 @@
 * Use TCP sockets to send and receive messages from other users 
 * Use perror for error checking and unavailable sockets
 
+## Common Mistakes 💀
+* Segmentation Fault (Core Dump) 😀
+
 ## Purpose 😆
 * Gain experience in the socket API!
 * Have fun and chat with other users!
