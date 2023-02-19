@@ -17,7 +17,7 @@ const projectSchema = new Schema({
     },
     members: [{
         type: SchemaTypes.ObjectId,
-        ref: 'Student',
+        ref: 'User',
         required: true
     }],
     links: [{
@@ -41,7 +41,7 @@ const projectSchema = new Schema({
             current: Number,
             supporters: [{
                 type: SchemaTypes.ObjectId,
-                ref: 'Supporter',
+                ref: 'User',
                 required: true
             }]
         },
