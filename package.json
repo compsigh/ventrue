@@ -1,0 +1,41 @@
+{
+  "name": "ventrue",
+  "author": "Napoleon Labs",
+  "bugs": "https://github.com/edwardshturman/mission/issues",
+  "homepage": "https://github.com/edwardshturman/mission",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "description": "School policy changelog and collaboration platform for students, staff, and admin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edwardshturman/mission.git"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "eslintConfig": {
+    "rules": {
+      "indent": [
+        "error",
+        4
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    }
+  },
+  "dependencies": {
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "mongoose": "^6.9.2",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.58.3"
+  }
+}
