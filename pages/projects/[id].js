@@ -11,50 +11,42 @@ export default function ProjectListing({ project }) {
         <h1>Project {id}</h1>
         <p>{project.name}</p>
         <p>{project.description}</p>
-        <p>{project.memberIds}</p>
         {project.links.map((link, index) => {
             return <p key={index}>{link.link} - {link.description}</p>
         })}
-        <p>{project.tags}</p>
-        <p>{project.image}</p>
-        <p>{project.lastModified}</p>
-        <p>{project.created}</p>
-        <p>{project.funding.goal}</p>
-        <p>{project.funding.current}</p>
-        <p>{project.funding.supporterIds}</p>
     </div>;
 }
 
 export async function getServerSideProps({ params }) {
 
     // Connect to MongoDB
-    mongoose.connect(process.env.DB_CONNECTION, () => {
+    await mongoose.connect(process.env.DB_CONNECTION, () => {
         console.log('connected to db');
     });
 
     // Create a demo project
-    const project = new Project({
-        id: faker.datatype.uuid(),
-        name: 'Project 1',
-        description: 'This is a project',
-        memberIds: ['1', '2', '3'],
-        links: [{
-            link: 'https://google.com',
-            description: 'Google'
-        }],
-        tags: ['tag1', 'tag2', 'tag3'],
-        image: 'https://picsum.photos/200/300',
-        lastModified: new Date(),
-        created: new Date(),
-        funding: {
-            goal: 100,
-            current: 50,
-            supporterIds: ['1', '2', '3']
-        }
-    });
+    // const project = new Project({
+    //     id: faker.datatype.uuid(),
+    //     name: 'Project 1',
+    //     description: 'This is a project',
+    //     memberIds: ['1', '2', '3'],
+    //     links: [{
+    //         link: 'https://google.com',
+    //         description: 'Google'
+    //     }],
+    //     tags: ['tag1', 'tag2', 'tag3'],
+    //     image: 'https://picsum.photos/200/300',
+    //     lastModified: new Date(),
+    //     created: new Date(),
+    //     funding: {
+    //         goal: 100,
+    //         current: 50,
+    //         supporterIds: ['1', '2', '3']
+    //     }
+    // });
 
     // Save the demo project to the database
-    await project.save();
+    // await project.save();
 
     // Get a project from the database
     const data = await Project.findOne({});
