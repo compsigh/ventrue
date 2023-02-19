@@ -1,0 +1,107 @@
+/* Ventrue/Header 1 */
+@mixin h1 {
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 90%;
+}
+
+/* Ventrue/Header 2 */
+@mixin h2 {
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+}
+
+/* Ventrue/Header 3 */
+@mixin h3 {
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 170%;
+}
+
+/* Ventrue/Subtitle */
+@mixin subtitle {
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+/* Ventrue/Body */
+@mixin body {
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+/* Ventrue/Bold */
+@mixin bold {
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+/* Ventrue/Italic */
+@mixin italic {
+    font-family: 'Satoshi Variable';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+/* Ventrue/Small */
+@mixin small {
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+/* Ventrue/Pre-Title */
+@mixin pretitle {
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* Ventrue/Button Text */
+
+@mixin buttontext {
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* Ventrue/Link */
+
+@mixin link {
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+}
