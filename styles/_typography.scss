@@ -1,6 +1,9 @@
+@import url('satoshi.css');
+$font-stack: Satoshi Variable, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
 /* Ventrue/Header 1 */
 @mixin h1 {
-    font-family: 'Satoshi Variable';
+    font-family: $font-stack;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -9,7 +12,7 @@
 
 /* Ventrue/Header 2 */
 @mixin h2 {
-    font-family: 'Satoshi Variable';
+    font-family: $font-stack;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -18,7 +21,7 @@
 
 /* Ventrue/Header 3 */
 @mixin h3 {
-    font-family: 'Satoshi Variable';
+    font-family: $font-stack;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -27,7 +30,7 @@
 
 /* Ventrue/Subtitle */
 @mixin subtitle {
-    font-family: 'Satoshi Variable';
+    font-family: $font-stack;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -36,7 +39,7 @@
 
 /* Ventrue/Body */
 @mixin body {
-    font-family: 'Satoshi Variable';
+    font-family: $font-stack;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -45,7 +48,7 @@
 
 /* Ventrue/Bold */
 @mixin bold {
-    font-family: 'Satoshi Variable';
+    font-family: $font-stack;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -54,7 +57,7 @@
 
 /* Ventrue/Italic */
 @mixin italic {
-    font-family: 'Satoshi Variable';
+    font-family: $font-stack;
     font-style: italic;
     font-weight: 400;
     font-size: 16px;
@@ -63,7 +66,7 @@
 
 /* Ventrue/Small */
 @mixin small {
-    font-family: 'Satoshi Variable';
+    font-family: $font-stack;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -72,7 +75,7 @@
 
 /* Ventrue/Pre-Title */
 @mixin pretitle {
-    font-family: 'Satoshi Variable';
+    font-family: $font-stack;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -84,7 +87,7 @@
 /* Ventrue/Button Text */
 
 @mixin buttontext {
-    font-family: 'Satoshi Variable';
+    font-family: $font-stack;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -97,7 +100,7 @@
 /* Ventrue/Link */
 
 @mixin link {
-    font-family: 'Satoshi Variable';
+    font-family: $font-stack;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
