@@ -6,7 +6,7 @@ export default function Navbar(props) {
     return (
     <nav className={styles.navbar}>
         <div className="logo">
-            <Image src="/logo.png" alt="Vercel Logo" width={50} height={50} />
+            <Image src="/Ventrue-Logo.svg" alt="Vercel Logo" width={50} height={50} />
         </div>
         <Link href="/">Home</Link>
         <Link href="/projects">Projects</Link>
