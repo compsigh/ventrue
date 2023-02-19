@@ -9,9 +9,11 @@
 * Use TCP sockets to send and receive messages from other users 
 * Use perror for error checking and unavailable sockets
 
-## Common Mistakes 💀
+## Common Mistakes and How To Avoid Them 💀
 * Segmentation Fault (Core Dump) 😀
+* Have you tried gdb? 🔥
 
 ## Purpose 😆
-* Gain experience in the socket API!
+* Connect with users within a certain domain/network
+* Direct messaging with users across the network
 * Have fun and chat with other users!
