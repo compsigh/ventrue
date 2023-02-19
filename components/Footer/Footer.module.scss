@@ -1,0 +1,21 @@
+@use 'styles/colors';
+
+.footer {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    gap: 80px;
+
+    position: relative;
+    width: 88%;
+    height: 6em;
+    margin: 0 auto;
+
+    /* Ventrue/Minecraft Obsidian */
+    border-top: 1px solid colors.$obsidian;
+}
