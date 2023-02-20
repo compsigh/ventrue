@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../../styles/Home.module.css'
 
 export default function ProjectsList() {
@@ -10,10 +11,10 @@ export default function ProjectsList() {
                     </h1>
 
                     <div className={styles.grid}>
-                    <a href="/projects/1" className={styles.card}>
+                    <Link href="/projects/1" className={styles.card}>
                         <h2>Chat App &rarr;</h2>
                         <p>$0 / $200</p>
-                    </a>
+                    </Link>
                     </div>
                 </main>
             </div>
