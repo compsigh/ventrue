@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ventrue
 
-## Getting Started
+## Inspiration
 
-First, run the development server:
+In life, we've been fortunate enough to be able to fund our own personal projects outside of school. Unfortunately — particularly in less affluent nations — that's not the case for everyone. Daily, we miss out on incredible student projects simply because they don't have the money for it. Ventrue is our way of addressing that.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## What it does
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+At its core, Ventrue is a pitching platform for students, and a backing platform for supporters — who can be schools, humanitarian organizations, or anyone looking to champion the next generation of developers, designers, and disruptors.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## How we built it
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Despite our 24-hour timeframe, we wanted to honor industry practice. From incorporating UI/UX design fundamentals via Figma, to server-side rendering with Next.js, no corner was cut for Ventrue's potential.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Challenges we ran into
 
-## Learn More
+Though we had our team formed ahead of time, we struggled to efficiently delegate work, as our skillsets are siloed individually, with very little overlap. This presented an issue wherein action items were blocked because work on a single item could only be done by a single person. e.g., we weren't able to systematize our frontend components until they were done in Figma — one didn't know how to help the other.
 
-To learn more about Next.js, take a look at the following resources:
+## Accomplishments that we're proud of
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For all of us, this has been our first hackathon, and all things considered, we're proud of how much we got done in a short timeframe. Additionally, all of us were able to pick up on skills we hadn't had prior, all of which are transferrable and can have a great impact as we grow in our dev careers.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## What we learned
 
-## Deploy on Vercel
+- Skill-wise: Three of us were introduced to Figma for the first time. One of us was introduced to database paradigms and MongoDB for the first time. One of us leveled-up our full-stack knowledge.
+- Other lessons: We had to refactor the "why" of Ventrue _twice_, so we learned that having a crystal clear idea and scope of what we're building is essential, especially when pressed for time.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## What's next for Ventrue
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The idea is quite personal for some of us, so we may continue it in the near future. Our team arrived as part of the general CS club **compsigh** at USF (which one of our team members founded), and one of our activities is workshops where we build projects together. We envision a future version of the app as part of one of these workshops.
+
+## Links
+
+A live demo can be viewed at [ventrue.app](https://ventrue.app). Also, check out the Figma file [here](https://www.figma.com/file/CPF7PAYZhHaMfqofXKPmAA/Ventrue?t=N5pBo41QDO3PCTFk-1) if you're interested.
