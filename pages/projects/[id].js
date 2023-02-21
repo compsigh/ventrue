@@ -1,7 +1,7 @@
 import ReactMarkdown from 'react-markdown';
 import connect from '../../functions/db-connect.js';
 import Project from '../../schemas/project-schema.js';
-import styles from '../../styles/Home.module.css';
+import styles from '../../styles/Home.module.scss';
 
 export default function ProjectListing({ project }) {
 

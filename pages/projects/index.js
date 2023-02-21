@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Home.module.scss'
 import connect from '../../functions/db-connect.js';
 import Project from '../../schemas/project-schema.js';
 
