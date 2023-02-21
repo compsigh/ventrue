@@ -1,34 +1,57 @@
 # Ventrue
 
-## Inspiration
+> compsigh's entry for Santa Clara University's 2023 Hack for Humanity hackathon
 
-In life, we've been fortunate enough to be able to fund our own personal projects outside of school. Unfortunately — particularly in less affluent nations — that's not the case for everyone. Daily, we miss out on incredible student projects simply because they don't have the money for it. Ventrue is our way of addressing that.
+---
 
-## What it does
+![Ventrue logo](public/logo.png)
 
-At its core, Ventrue is a pitching platform for students, and a backing platform for supporters — who can be schools, humanitarian organizations, or anyone looking to champion the next generation of developers, designers, and disruptors.
+---
 
-## How we built it
+## What is it?
 
-Despite our 24-hour timeframe, we wanted to honor industry practice. From incorporating UI/UX design fundamentals via Figma, to server-side rendering with Next.js, no corner was cut for Ventrue's potential.
+Here's what we wrote in our [hackathon entry](hackathon-entry.md):
 
-## Challenges we ran into
+Ventrue is a pitching platform for students, and a backing platform for supporters — who can be schools, humanitarian organizations, or anyone looking to champion the next generation of developers, designers, and disruptors.
 
-Though we had our team formed ahead of time, we struggled to efficiently delegate work, as our skillsets are siloed individually, with very little overlap. This presented an issue wherein action items were blocked because work on a single item could only be done by a single person. e.g., we weren't able to systematize our frontend components until they were done in Figma — one didn't know how to help the other.
+## How did the hackathon go?
 
-## Accomplishments that we're proud of
+Well, it was in a less than workable state.... In fact, if you'd like to travel back in time, you can check out exactly what it looked like by the end of the hackathon [here](https://ventrue-6uakd9xca-compsigh.vercel.app). Nonetheless, we learned a lot about Next.js and so since then we've committed to maintaining it as a demo project for teaching/group practice purposes.
 
-For all of us, this has been our first hackathon, and all things considered, we're proud of how much we got done in a short timeframe. Additionally, all of us were able to pick up on skills we hadn't had prior, all of which are transferrable and can have a great impact as we grow in our dev careers.
+## Roadmap
 
-## What we learned
+For upcoming features, check out the [Issues](https://github.com/compsigh/ventrue/issues) tab.
 
-- Skill-wise: Three of us were introduced to Figma for the first time. One of us was introduced to database paradigms and MongoDB for the first time. One of us leveled-up our full-stack knowledge.
-- Other lessons: We had to refactor the "why" of Ventrue _twice_, so we learned that having a crystal clear idea and scope of what we're building is essential, especially when pressed for time.
+## Demo
 
-## What's next for Ventrue
+*Coming soon!*
 
-The idea is quite personal for some of us, so we may continue it in the near future. Our team arrived as part of the general CS club **compsigh** at USF (which one of our team members founded), and one of our activities is workshops where we build projects together. We envision a future version of the app as part of one of these workshops.
+## FAQ
 
-## Links
+**&rarr; What can I expect to learn from it?**
 
-A live demo can be viewed at [ventrue.app](https://ventrue.app). Also, check out the Figma file [here](https://www.figma.com/file/CPF7PAYZhHaMfqofXKPmAA/Ventrue?t=N5pBo41QDO3PCTFk-1) if you're interested.
+To make Ventrue, we've utilized the following tools and tech stack:
+
+- Figma (check out the file [here](https://www.figma.com/file/CPF7PAYZhHaMfqofXKPmAA/Ventrue?t=N5pBo41QDO3PCTFk-1))
+- JavaScript
+- Node.js
+- React
+- Next.js
+- MongoDB
+- Vercel
+
+**&rarr; What's its current state? What're the plans?**
+
+As of `February 21, 2023`, it's a 🏗️ **work in progress**.
+
+> I'm learning Next.js and this is now basically my playground for it, lol. I'll keep this section updated.
+>
+> — Edward
+
+## Support
+
+Thanks for checking the project out. :) You can ask about it, or for help understanding it, in the [Discord](https://discord.compsigh.so). For any issues you encounter, feel free to [submit an issue](https://github.com/compsigh/ventrue/issues).
+
+## Contributions
+
+Thanks for being interested in helping. :) The project is totally ours as compsigh, so you can get write access in most cases by just asking, lol. This'll also be making the rounds in workshops and various learning sessions we run, so you can drop in on one of those as well.
