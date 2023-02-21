@@ -12,7 +12,6 @@ export default function Home() {
         <title>Ventrue</title>
         <meta name="description" content="Ventrue" />
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&display=swap" rel="stylesheet"></link>
       </Head>
 
       <main className={styles.main}>
