@@ -3,26 +3,84 @@
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: typography.$font-stack;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: typography.$font-stack;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+/* Base Blocks */
+
+/* Ventrue/Header 1 */
+h1 {
+    @include typography.h1;
 }
 
-// @media (prefers-color-scheme: dark) {
-//   html {
-//     color-scheme: dark;
-//   }
-//   body {
-//     color: white;
-//     background: black;
-//   }
-// }
+/* Ventrue/Header 2 */
+h2 {
+    @include typography.h2;
+}
+
+/* Ventrue/Header 3 */
+h3 {
+    @include typography.h3;
+}
+
+/* Ventrue/Subtitle */
+.subtitle {
+    @include typography.subtitle;
+}
+
+/* Ventrue/Body */
+p {
+    @include typography.body;
+}
+
+/* Ventrue/Pre-Title */
+.pretitle {
+    @include typography.pretitle;
+}
+
+/* Ventrue/Button Text */
+button {
+    a {
+        @include typography.buttontext;
+    }
+}
+
+/* Stylistic Blocks */
+
+/* Ventrue/Bold */
+strong {
+    @include typography.bold;
+}
+
+/* Ventrue/Italic */
+em {
+    @include typography.italic;
+}
+
+/* Ventrue/Small */
+small {
+    @include typography.small;
+}
+
+/* Ventrue/Link */
+a {
+    @include typography.link;
+}
+
+nav {
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+/* Ventrue/Code */
+code {
+    @include typography.code;
+}
