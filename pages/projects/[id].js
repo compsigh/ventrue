@@ -1,12 +1,12 @@
 import ReactMarkdown from 'react-markdown';
 import connect from '../../functions/db-connect.js';
 import Project from '../../schemas/project-schema.js';
+import styles from '../../styles/Home.module.scss';
 
 export default function ProjectListing({ project }) {
 
     return (
-        <div>
-            <h1>{project.name}</h1>
+        <div className={styles.container}>
             <ReactMarkdown>{project.description}</ReactMarkdown>
             <p>Current funding: ${project.funding.current}</p>
             <p>Goal: ${project.funding.goal}</p>
